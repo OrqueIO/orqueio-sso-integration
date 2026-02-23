@@ -27,7 +27,7 @@
         <url/>
     </scm>
     <properties>
-        <orqueio.version>1.0.6</orqueio.version>
+        <orqueio.version>1.0.7</orqueio.version>
         <java.version>21</java.version>
         <spring-boot.version>3.5.9</spring-boot.version>
     </properties>

@@ -2,7 +2,7 @@
 
 A production-ready Spring Boot application demonstrating **OAuth2/OIDC Single Sign-On (SSO)** integration with OrqueIO BPM platform. This example showcases a complete expense approval workflow with automatic user provisioning and group-based access control.
 
-> **SSO Support**: SSO is available starting from **OrqueIO version 1.0.6**
+> **SSO Support**: SSO is available starting from **OrqueIO version 1.0.6+** (current: 1.0.7)
 
 ## Overview
 
@@ -40,7 +40,7 @@ The application supports OAuth2/OIDC with the following features:
 - **Java**: 21 or higher
 - **Maven**: 3.6+
 - **Spring Boot**: 3.5.9
-- **OrqueIO BPM**: 1.0.6 or higher (SSO supported from 1.0.6+)
+- **OrqueIO BPM**: 1.0.7 (SSO supported from 1.0.6+)
 - **Identity Provider** (optional): Keycloak, Google, GitHub, Auth0, or Okta OAuth2 credentials
 
 ## Configuration
@@ -205,7 +205,7 @@ Key dependencies used in this project:
 | Dependency | Version | Purpose |
 |------------|---------|---------|
 | Spring Boot | 3.5.9 | Application framework |
-| OrqueIO BPM | 1.0.6 | BPM engine with SSO support |
+| OrqueIO BPM | 1.0.7 | BPM engine with SSO support |
 | H2 Database | Runtime | In-memory database |
 | Lombok | Latest | Code generation |
 | Spring Security OAuth2 | 3.5.9 | OAuth2/OIDC authentication |
@@ -265,7 +265,7 @@ These groups must exist in your identity provider with the exact same names for 
 **Solution**: Ensure the user belongs to the correct groups (`employees` or `finance`) in your identity provider
 
 **Issue**: SSO not working
-**Solution**: Verify you are using OrqueIO version 1.0.6 or higher. Check `pom.xml` for `orqueio.version` property.
+**Solution**: Verify you are using OrqueIO version 1.0.6 or higher (current version: 1.0.7). Check `pom.xml` for `orqueio.version` property.
 
 **Issue**: Groups not synchronized
 **Solution**: Ensure `group-name-attribute` in `application.yml` matches your identity provider's group claim attribute
@@ -301,5 +301,6 @@ For OrqueIO-related questions and support:
 
 ## Version History
 
-- **1.0.6+**: SSO support with OAuth2/OIDC integration
+- **1.0.7**: Current version with enhanced OAuth2/OIDC support (GitHub, Auth0, Okta)
+- **1.0.6**: Initial SSO support with OAuth2/OIDC integration
 - Earlier versions: Basic authentication only
