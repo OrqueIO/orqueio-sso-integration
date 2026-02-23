@@ -21,7 +21,6 @@ public class PaymentDelegate implements JavaDelegate {
 
         logger.info("Processing payment of {} for employee {}", amount, employee);
 
-        // Simulate payment processing
         execution.setVariable("paymentReference", "PAY-" + System.currentTimeMillis());
 
         logger.info("Payment processed successfully");
