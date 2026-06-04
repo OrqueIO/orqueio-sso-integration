@@ -299,10 +299,3 @@ For OrqueIO-related questions and support:
 - Documentation: [OrqueIO Docs](https://docs.orqueio.io)
 - Issues: Report issues in your organization's issue tracker
 
-## Version History
-
-- **2.0.1**: Latest version with Spring Boot 4.0.1 compatibility
-- **2.0.0**: Major version upgrade with Spring Boot 4.0.0 compatibility
-- **1.0.7**: Enhanced OAuth2/OIDC support (GitHub, Auth0, Okta)
-- **1.0.6**: Initial SSO support with OAuth2/OIDC integration
-- Earlier versions: Basic authentication only
