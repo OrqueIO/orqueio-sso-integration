@@ -205,7 +205,7 @@ Key dependencies used in this project:
 | Dependency | Version | Purpose |
 |------------|---------|---------|
 | Spring Boot | 3.5.11  | Application framework |
-| OrqueIO BPM | 1.0.8   | BPM engine with SSO support |
+| OrqueIO BPM | 1.0.9   | BPM engine with SSO support |
 | H2 Database | Runtime | In-memory database |
 | Lombok | Latest  | Code generation |
 | Spring Security OAuth2 | 3.5.11  | OAuth2/OIDC authentication |
