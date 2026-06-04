@@ -204,11 +204,11 @@ Key dependencies used in this project:
 
 | Dependency | Version | Purpose |
 |------------|---------|---------|
-| Spring Boot | 4.0.2 | Application framework |
-| OrqueIO BPM | 2.0.2 | BPM engine with SSO support |
+| Spring Boot | 4.0.6   | Application framework |
+| OrqueIO BPM | 2.0.2   | BPM engine with SSO support |
 | H2 Database | Runtime | In-memory database |
-| Lombok | Latest | Code generation |
-| Spring Security OAuth2 | 4.0.2 | OAuth2/OIDC authentication |
+| Lombok | Latest  | Code generation |
+| Spring Security OAuth2 | 4.0.6   | OAuth2/OIDC authentication |
 
 ## Usage Examples
 
@@ -298,12 +298,3 @@ This project is provided as an example for demonstration purposes.
 For OrqueIO-related questions and support:
 - Documentation: [OrqueIO Docs](https://docs.orqueio.io)
 - Issues: Report issues in your organization's issue tracker
-
-## Version History
-
-- **2.0.2**: Latest version with Spring Boot 4.0.2 compatibility
-- **2.0.1**: Patch update with Spring Boot 4.0.1 compatibility
-- **2.0.0**: Major version upgrade with Spring Boot 4.0.0 compatibility
-- **1.0.7**: Enhanced OAuth2/OIDC support (GitHub, Auth0, Okta)
-- **1.0.6**: Initial SSO support with OAuth2/OIDC integration
-- Earlier versions: Basic authentication only
