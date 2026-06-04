@@ -204,11 +204,11 @@ Key dependencies used in this project:
 
 | Dependency | Version | Purpose |
 |------------|---------|---------|
-| Spring Boot | 4.0.0 | Application framework |
-| OrqueIO BPM | 2.0.0 | BPM engine with SSO support |
+| Spring Boot | 4.0.6   | Application framework |
+| OrqueIO BPM | 2.0.0   | BPM engine with SSO support |
 | H2 Database | Runtime | In-memory database |
-| Lombok | Latest | Code generation |
-| Spring Security OAuth2 | 4.0.0 | OAuth2/OIDC authentication |
+| Lombok | Latest  | Code generation |
+| Spring Security OAuth2 | 4.0.6   | OAuth2/OIDC authentication |
 
 ## Usage Examples
 
