@@ -265,7 +265,7 @@ These groups must exist in your identity provider with the exact same names for 
 **Solution**: Ensure the user belongs to the correct groups (`employees` or `finance`) in your identity provider
 
 **Issue**: SSO not working
-**Solution**: Verify you are using OrqueIO version 1.0.6 or higher (current version: 2.0.2). Check `pom.xml` for `orqueio.version` property.
+**Solution**: Verify you are using OrqueIO version 1.0.6 or higher (current version: 2.0.4). Check `pom.xml` for `orqueio.version` property.
 
 **Issue**: Groups not synchronized
 **Solution**: Ensure `group-name-attribute` in `application.yml` matches your identity provider's group claim attribute
