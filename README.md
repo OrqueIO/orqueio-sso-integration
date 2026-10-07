@@ -2,7 +2,7 @@
 
 A production-ready Spring Boot application demonstrating **OAuth2/OIDC Single Sign-On (SSO)** integration with OrqueIO BPM platform. This example showcases a complete expense approval workflow with automatic user provisioning and group-based access control.
 
-> **SSO Support**: SSO is available starting from **OrqueIO version 1.0.6+** (current: 2.0.2)
+> **SSO Support**: SSO is available starting from **OrqueIO version 1.0.6+** (current: 2.0.4)
 
 ## Overview
 
@@ -39,8 +39,8 @@ The application supports OAuth2/OIDC with the following features:
 
 - **Java**: 21 or higher
 - **Maven**: 3.6+
-- **Spring Boot**: 4.0.2
-- **OrqueIO BPM**: 2.0.2 (SSO supported from 1.0.6+)
+- **Spring Boot**: 4.0.6
+- **OrqueIO BPM**: 2.0.4 (SSO supported from 1.0.6+)
 - **Identity Provider** (optional): Keycloak, Google, GitHub, Auth0, or Okta OAuth2 credentials
 
 ## Configuration
@@ -205,7 +205,7 @@ Key dependencies used in this project:
 | Dependency | Version | Purpose |
 |------------|---------|---------|
 | Spring Boot | 4.0.6   | Application framework |
-| OrqueIO BPM | 2.0.2   | BPM engine with SSO support |
+| OrqueIO BPM | 2.0.4   | BPM engine with SSO support |
 | H2 Database | Runtime | In-memory database |
 | Lombok | Latest  | Code generation |
 | Spring Security OAuth2 | 4.0.6   | OAuth2/OIDC authentication |
